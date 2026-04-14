@@ -19,6 +19,8 @@
 pip install cfdi-pandas
 ```
 
+PyPI package page: [https://pypi.org/project/cfdi-pandas/0.1.0/](https://pypi.org/project/cfdi-pandas/0.1.0/)
+
 ### From this repository (editable mode)
 
 ```bash
