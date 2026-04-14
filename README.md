@@ -2,6 +2,19 @@
 
 `cfdi-pandas` is a Python library to read CFDI 4.0 XML invoices and work with them as pandas DataFrames for analysis and validation.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emiliosaidm/Proyecto-1-FDD/blob/main/cfdi_pandas_tutorial.ipynb)
+
+## Colab quickstart
+
+1. Open the tutorial from the **Open in Colab** badge.
+2. Run the first install cell:
+
+```python
+%pip install cfdi-pandas
+```
+
+3. Run the next cell that loads this repository `README.md` inside Colab.
+
 ## Features
 
 - Read one XML or a full folder of XMLs.
