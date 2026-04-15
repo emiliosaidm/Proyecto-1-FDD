@@ -1,0 +1,810 @@
+[
+  {
+    "version": "4.0",
+    "series": "PA",
+    "folio_number": "122",
+    "issue_date": "2025-05-28T16:28:53",
+    "subtotal": "0",
+    "total": "0",
+    "invoice_type": "P",
+    "currency": "XXX",
+    "exchange_rate": null,
+    "place_of_issue": "58187",
+    "issuer_rfc": "NSI2104132IA",
+    "issuer_name": "NUMEROS CON SIGNIFICADO",
+    "issuer_tax_regime": "626",
+    "receiver_rfc": "VEN230503548",
+    "receiver_name": "VENTRAUREN",
+    "receiver_cfdi_use": "CP01",
+    "receiver_fiscal_address": "11590",
+    "receiver_tax_regime": "601",
+    "uuid": "e5bcaecc-3fcd-4380-a8c4-d9552d14281c",
+    "stamp_date": "2025-05-28T16:32:53",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "eup7IxzHZrNWdwBPzq2oDYaG7aFyz2kO9GO/qr9mVJD0t+NndWWTGCGfTpgH98ugczy9IOnheDTjI7ngLmdDxdNfGinZJs5i/AUb/IyF9HreVn6oJnsJ2cDblbND1Hp6NNqX+yb1NkSp/7vR5MPiwuvNywQHHFf/+VVGHfSSBnx2yF3HVsdCim/66Gy0tiRNbfBUHIL+J3AiB9V5hKc3t7d5Opb0Z8e2GH0jARtPtdEbAuWNXzTGByJ6V1OgMP0Zb/PW2OdcMKYgkKTuNrn77V/SPdpuxliUrFRptqsoCOD3EWl7nCYrQvCxdyEiN2q0awFIFg7KS74OC9HqzU6I3Q==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "Pago",
+        "quantity": "1",
+        "unit_key": "ACT",
+        "unit": NaN,
+        "unit_price": "0",
+        "amount": "0",
+        "discount": null,
+        "transferred_taxes_amount": "0",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "0",
+        "ieps_amount": "0",
+        "concept_taxes": [],
+        "uuid": "e5bcaecc-3fcd-4380-a8c4-d9552d14281c"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": NaN,
+        "tax_code": NaN,
+        "factor_type": NaN,
+        "rate_or_fee": NaN,
+        "base": NaN,
+        "amount": NaN,
+        "total_transferred_taxes": "0",
+        "total_withheld_taxes": "0",
+        "uuid": "e5bcaecc-3fcd-4380-a8c4-d9552d14281c"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "A",
+    "folio_number": "1",
+    "issue_date": "2025-02-09T00:00:00",
+    "subtotal": "15.00",
+    "total": "17.40",
+    "invoice_type": "I",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "11590",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "RENJ0112285T3",
+    "receiver_name": "JESUS REYNA NUÑEZ",
+    "receiver_cfdi_use": "S01",
+    "receiver_fiscal_address": "62577",
+    "receiver_tax_regime": "605",
+    "uuid": "7392dfdb-cc77-4d47-b3f2-a2840f2af633",
+    "stamp_date": "2025-02-09T23:05:48",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "N6Pzryxiu+XDIQNIzhG8L1bg40hGfsp92qvAlbE9rxzjw6ZKSR2z2rm5jcKPaWKYLt+DZhqTOi5OoDlzHZYWzyHeethxQbQxTI5WwVaudV3X6kDUzh5rEczQfdlmmggUhNeMBcWBx83yed9bapbwW8NrpFBWwKTJkYPXotk/ZNSaqAu83KEI7K/rCoGcS8vSC7VeD3ryRP4mb9tpCaSDRqyC7V8cfnavdQKuNCZMDilugnso3BoQE+jKy4h2o4lVjBGRVyyqkfASlAcv+M5FoEaV6XwoZUF4LAd57wIGf5LwZAZvFDrtITsqjojVDGQCE7QvMsIHmIfzbWKcjimDPw==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "Servicios de facturación",
+        "quantity": "1.0",
+        "unit_key": "E48",
+        "unit": NaN,
+        "unit_price": "5.0",
+        "amount": "5.0",
+        "discount": null,
+        "transferred_taxes_amount": "0.8",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "0.8",
+        "ieps_amount": "0",
+        "concept_taxes": [
+          {
+            "tax_type": "transfer",
+            "tax_code": "002",
+            "factor_type": "Tasa",
+            "rate_or_fee": "0.160000",
+            "base": "5.0",
+            "amount": "0.8"
+          }
+        ],
+        "uuid": "7392dfdb-cc77-4d47-b3f2-a2840f2af633"
+      },
+      {
+        "concept_index": 1,
+        "product_service_key": "81112500",
+        "description": "Servicios de alquiler o arrendamiento de licencias de software de computador",
+        "quantity": "1.0",
+        "unit_key": "E48",
+        "unit": NaN,
+        "unit_price": "10.0",
+        "amount": "10.0",
+        "discount": null,
+        "transferred_taxes_amount": "1.6",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "1.6",
+        "ieps_amount": "0",
+        "concept_taxes": [
+          {
+            "tax_type": "transfer",
+            "tax_code": "002",
+            "factor_type": "Tasa",
+            "rate_or_fee": "0.160000",
+            "base": "10.0",
+            "amount": "1.6"
+          }
+        ],
+        "uuid": "7392dfdb-cc77-4d47-b3f2-a2840f2af633"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": "transfer",
+        "tax_code": "002",
+        "factor_type": "Tasa",
+        "rate_or_fee": "0.160000",
+        "base": "15.00",
+        "amount": "2.40",
+        "total_transferred_taxes": "2.40",
+        "total_withheld_taxes": "0",
+        "uuid": "7392dfdb-cc77-4d47-b3f2-a2840f2af633"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "A",
+    "folio_number": "6",
+    "issue_date": "2025-08-05T00:00:00",
+    "subtotal": "50.00",
+    "total": "50.00",
+    "invoice_type": "I",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "01590",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "SAME030423JJ1",
+    "receiver_name": "EMILIO SAID MACCISE",
+    "receiver_cfdi_use": "S01",
+    "receiver_fiscal_address": "52779",
+    "receiver_tax_regime": "605",
+    "uuid": "553856ff-c389-4002-b361-4d3f70aa8d32",
+    "stamp_date": "2025-08-05T10:40:25",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "ICDSyis7GQzvoJTY7j09Ky3rXOGM7f8IZZ+r4AzDSu0y7zTDN5NozIKivoXUnDJXSt7OWpIbZo9GguKMjTOO1/IziTFPqm+CvSp/Z9c/0L5FyTaXzzDyGbz00B8Bx1sdPxRNxkc/zJ3ZTbLl9BsnOsFToBAST5QK+1FN8XuXhpy0elBlxuHTkIqIIlckaoy2RsBnLOPTEenAskxWci9jbSbYiHj0/WldVdUuE4lVoshwu4e0/lCcR0swvx8jf0L/Oi6vvpntC9XtGJY45UHjH3DyiwHC3L/E8V8Khtm6zpZBSW/XWKvRdKwfitzOQII+ZoqHmkQrMzV123WxtpWhTA==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "Servicios de facturación",
+        "quantity": "1",
+        "unit_key": "E48",
+        "unit": NaN,
+        "unit_price": "50.0",
+        "amount": "50.0",
+        "discount": null,
+        "transferred_taxes_amount": "0",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "0",
+        "ieps_amount": "0",
+        "concept_taxes": [],
+        "uuid": "553856ff-c389-4002-b361-4d3f70aa8d32"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": NaN,
+        "tax_code": NaN,
+        "factor_type": NaN,
+        "rate_or_fee": NaN,
+        "base": NaN,
+        "amount": NaN,
+        "total_transferred_taxes": "0",
+        "total_withheld_taxes": "0",
+        "uuid": "553856ff-c389-4002-b361-4d3f70aa8d32"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "A",
+    "folio_number": "187",
+    "issue_date": "2025-04-28T19:01:22",
+    "subtotal": "390.50",
+    "total": "452.98",
+    "invoice_type": "I",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "66197",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "GAGJ010522MN7",
+    "receiver_name": "JAVIER GARZA GUERRA",
+    "receiver_cfdi_use": "CP01",
+    "receiver_fiscal_address": "66266",
+    "receiver_tax_regime": "605",
+    "uuid": "36d47f4f-f779-4429-ba3d-e006efe72a15",
+    "stamp_date": "2025-04-28T19:01:22",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "hpjVV/7xblIGKfr+ijNufD+S7gImsSQvWjW2JY1g0TAQy8+ZxtG0wjW2Y0ebWCC2eAW8K3u+FouPBwnuJJX9V5w/plqWEw/PDpTrpe8sXMb4c44VnRbXTMG4QnIQfMq1qDuoA+o+efnKCRhjeva/3FnWzUeBKX0uB/lz85HxVRxUwewAFUQPKWNgbtrXgpgVMmfQOPVMnMj7y4CyD9hPhewLO9dfjTps4wwlU+pNPu0bLHQXokeX6ZsWsekf2qCbuWNNya5EveOXRksxqMg6KzE09HopSTTM9YApBzYA0cbMSGSPfwrTqvKZV9izRXLhW9sS1Wc+hnRgw1p1CqPoiA==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "Servicio de facturación",
+        "quantity": "1",
+        "unit_key": "E48",
+        "unit": NaN,
+        "unit_price": "390.5",
+        "amount": "390.5",
+        "discount": null,
+        "transferred_taxes_amount": "62.48",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "62.48",
+        "ieps_amount": "0",
+        "concept_taxes": [
+          {
+            "tax_type": "transfer",
+            "tax_code": "002",
+            "factor_type": "Tasa",
+            "rate_or_fee": "0.160000",
+            "base": "390.5",
+            "amount": "62.48"
+          }
+        ],
+        "uuid": "36d47f4f-f779-4429-ba3d-e006efe72a15"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": "transfer",
+        "tax_code": "002",
+        "factor_type": "Tasa",
+        "rate_or_fee": "0.160000",
+        "base": "390.50",
+        "amount": "62.48",
+        "total_transferred_taxes": "62.48",
+        "total_withheld_taxes": "0",
+        "uuid": "36d47f4f-f779-4429-ba3d-e006efe72a15"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": NaN,
+    "folio_number": "19",
+    "issue_date": "2025-02-24T10:04:51",
+    "subtotal": "12.00",
+    "total": "12.00",
+    "invoice_type": "I",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "66197",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "RENJ0112285T3",
+    "receiver_name": "JESUS REYNA NUÑEZ",
+    "receiver_cfdi_use": "S01",
+    "receiver_fiscal_address": "62577",
+    "receiver_tax_regime": "605",
+    "uuid": "85b29015-630d-477e-9f34-ed5e878c60d5",
+    "stamp_date": "2025-02-24T10:04:51",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "Na6QorWnAJGTgPRZxsJHXwVUPDdo64mlPmB483mgmVrZsXuzNwu3WcZlDXsXQPat068yOz8O2Yx1iSXdgK2Y7G8qkaPWCKJnm4YiLCLEpTk9zqGhmH9slRt+p27VdrtvIed2jLo7EA72If90oJg945naP9nXcP5FYaYHDXP4DEtL74Z8zJuYibpPvVWWVitqw2hwDbiBCCrizxeuRVUQ0WHCF51Ne2PhPmW0aXGZ+0dPFO7XDaSqD7ORE4m+tqsRcF+E6dP7nsF7P42ave7ACw3TQNj1PbDmh6fCzGNiqds0ojN1mwLe96MaHueqwE6LBzLydzU2bJC6Pl4win9ftA==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "ds",
+        "quantity": "1",
+        "unit_key": "E48",
+        "unit": "Unidad de servicio",
+        "unit_price": "12.00",
+        "amount": "12.00",
+        "discount": null,
+        "transferred_taxes_amount": "0",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "0",
+        "ieps_amount": "0",
+        "concept_taxes": [],
+        "uuid": "85b29015-630d-477e-9f34-ed5e878c60d5"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": NaN,
+        "tax_code": NaN,
+        "factor_type": NaN,
+        "rate_or_fee": NaN,
+        "base": NaN,
+        "amount": NaN,
+        "total_transferred_taxes": "0",
+        "total_withheld_taxes": "0",
+        "uuid": "85b29015-630d-477e-9f34-ed5e878c60d5"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": NaN,
+    "folio_number": NaN,
+    "issue_date": "2025-05-30T14:52:22",
+    "subtotal": "900.00",
+    "total": "1044.00",
+    "invoice_type": "E",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "66197",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "BME111107JL3",
+    "receiver_name": "BUSCALIBRE MEXICO",
+    "receiver_cfdi_use": "G02",
+    "receiver_fiscal_address": "54900",
+    "receiver_tax_regime": "601",
+    "uuid": "6D1C25D5-296F-4B34-A316-20503B1986BA",
+    "stamp_date": "2025-05-30T14:52:43",
+    "sat_certificate_number": "00001000000705250068",
+    "cfd_seal": "O/mnKuT65qHHzIRpfwT197VATg853duz9qCFsGNteFHSn48Nqxl2V4vka3N9VkikbvXjO5cm9jt32306LGERe203YMWPCDt61Y5LfZdAWq2xS5n6m6xTlfVIltcE9O5pSzYmV8E5S6RMct0WoQrD9hbdAvEIO2wfZ2FMqYhbnloS8gxwlb5UIA+LzrIbd3moP3OdNiChfIkkUxoRHYedzApQGduFvPBHJNfOOnBdFE9gy6b8NF1hG5DCs+w4sRNueG/UFLCIiffbe5dwvFlCGZBFzAupwyCpHVXTtHk+gxS+BjDFOlz5b+J7JTAKGU/5/J+2Lfj0X8zd+6oNGLCV9A==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "78102206",
+        "description": "SERVICIOS DE MENSAJERIA LOCAL INCLUYENDO TRASLADOS EN VEHICULO LIGERO",
+        "quantity": "1.00",
+        "unit_key": "E48",
+        "unit": "Unidad de servicio",
+        "unit_price": "900",
+        "amount": "900.000000",
+        "discount": null,
+        "transferred_taxes_amount": "144.000000",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "144.000000",
+        "ieps_amount": "0",
+        "concept_taxes": [
+          {
+            "tax_type": "transfer",
+            "tax_code": "002",
+            "factor_type": "Tasa",
+            "rate_or_fee": "0.160000",
+            "base": "900.000000",
+            "amount": "144.000000"
+          }
+        ],
+        "uuid": "6D1C25D5-296F-4B34-A316-20503B1986BA"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": "transfer",
+        "tax_code": "002",
+        "factor_type": "Tasa",
+        "rate_or_fee": "0.160000",
+        "base": "900.00",
+        "amount": "144.00",
+        "total_transferred_taxes": "144.00",
+        "total_withheld_taxes": "0",
+        "uuid": "6D1C25D5-296F-4B34-A316-20503B1986BA"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "PA",
+    "folio_number": "191",
+    "issue_date": "2025-06-26T17:59:06",
+    "subtotal": "0",
+    "total": "0",
+    "invoice_type": "P",
+    "currency": "XXX",
+    "exchange_rate": null,
+    "place_of_issue": "58187",
+    "issuer_rfc": "NSI2104132IA",
+    "issuer_name": "NUMEROS CON SIGNIFICADO",
+    "issuer_tax_regime": "626",
+    "receiver_rfc": "VEN230503548",
+    "receiver_name": "VENTRAUREN",
+    "receiver_cfdi_use": "CP01",
+    "receiver_fiscal_address": "11590",
+    "receiver_tax_regime": "601",
+    "uuid": "f51ccef2-97c5-47fb-8737-443b07db6047",
+    "stamp_date": "2025-06-26T18:03:06",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "Cy/Ij1u0cQh3d34Nu+jSjHUz1QPnRtCOyNXfObheavJOyVOyvvs/TyxT4UiBiUy2W7RuEG0/0ktFpA/YqTd2e7C8YYXbM/iYufTUOVOu1/grEKIzZ3Cctnkw07t5ObmoHTuY6HjYW9BCdp29BylR+dnDsZACsf0+D2cKmvXyZHaEv23kRQ019yozbUkBmA03NEK3bt0/GbqPM3b4BzPQyHb33k2h0SDAymJkXQz3YB4JLVcSoUWT8Ha9atYwVJ8r0mtcGY5Fk9Jz05eszgJ8kr4oevKOWTCQyQY3ibIDjYDM7Hr1nK1QRNK0jNJ62JLNaMVm6oHCBByF3Cu4lVa9fA==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "Pago",
+        "quantity": "1",
+        "unit_key": "ACT",
+        "unit": NaN,
+        "unit_price": "0",
+        "amount": "0",
+        "discount": null,
+        "transferred_taxes_amount": "0",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "0",
+        "ieps_amount": "0",
+        "concept_taxes": [],
+        "uuid": "f51ccef2-97c5-47fb-8737-443b07db6047"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": NaN,
+        "tax_code": NaN,
+        "factor_type": NaN,
+        "rate_or_fee": NaN,
+        "base": NaN,
+        "amount": NaN,
+        "total_transferred_taxes": "0",
+        "total_withheld_taxes": "0",
+        "uuid": "f51ccef2-97c5-47fb-8737-443b07db6047"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "COMP",
+    "folio_number": "119",
+    "issue_date": "2025-02-07T14:02:53",
+    "subtotal": "0",
+    "total": "0",
+    "invoice_type": "P",
+    "currency": "XXX",
+    "exchange_rate": null,
+    "place_of_issue": "11590",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "MAN210826553",
+    "receiver_name": "MANDATIO",
+    "receiver_cfdi_use": "CP01",
+    "receiver_fiscal_address": "66266",
+    "receiver_tax_regime": "601",
+    "uuid": "45eaef74-2b8d-4acc-9c57-76fb2dc650c2",
+    "stamp_date": "2025-02-07T14:02:54",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "hWKqkKbwUmb/gOnCBh6z7RTPobzP1oridErHQsex+nT5cxlTEljV/mD7Gg8WihvP489616e8aGyP9s1bSGwLt+Yt+mLeCXi8H9CIlfRxFCuO4Oct9Oul7LvhGu7jLGvcMKeM0Qb2jywxrJsUCa24tnw6iO/2k33mIjtWkJQvevJHiDjDaKNlxDUoMaD0W7Ki82B9ww2R0izyYzfFcdULpewP8CmQOuvnEAzTLDMsc8XyBcUMbPYQShBCMwxe9vt4xfqtPVz+dVquxF6W/zY2EKcM1LZKP1TrqmrL6kSa/oFGjE8FHD8HMVWmmSHD96vwbmT8siFVuGdNeUBRg4keew==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "Pago",
+        "quantity": "1",
+        "unit_key": "ACT",
+        "unit": NaN,
+        "unit_price": "0",
+        "amount": "0",
+        "discount": null,
+        "transferred_taxes_amount": "0",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "0",
+        "ieps_amount": "0",
+        "concept_taxes": [],
+        "uuid": "45eaef74-2b8d-4acc-9c57-76fb2dc650c2"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": NaN,
+        "tax_code": NaN,
+        "factor_type": NaN,
+        "rate_or_fee": NaN,
+        "base": NaN,
+        "amount": NaN,
+        "total_transferred_taxes": "0",
+        "total_withheld_taxes": "0",
+        "uuid": "45eaef74-2b8d-4acc-9c57-76fb2dc650c2"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "COMP",
+    "folio_number": "139",
+    "issue_date": "2025-03-24T10:58:24",
+    "subtotal": "0",
+    "total": "0",
+    "invoice_type": "P",
+    "currency": "XXX",
+    "exchange_rate": null,
+    "place_of_issue": "11590",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "LOLE040413AQA",
+    "receiver_name": "EDGAR ANDRE LOPEZ LUNA",
+    "receiver_cfdi_use": "CP01",
+    "receiver_fiscal_address": "55600",
+    "receiver_tax_regime": "612",
+    "uuid": "4be792d3-75bc-4797-a7e2-6d5231e4fe7d",
+    "stamp_date": "2025-03-24T10:58:24",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "VGIeOdifvAAsTvddHXznWon6RT0P4CfM7AFsj5xSS4VX65l9k8AOhN2uqcWcryOnEFxqJw9NAjgmdcv8ZBcWl8CLSx2srlNDG3BgA00nUe9ip8iN3dPT5AxW2Qdt4pBQObEsLpr6/8U/4JkZrkAtgj6jntu7LiiM/hG9BnHusYaaQ0EgQdAhr5j5ZhBZ1E05QCXWRCupLr8neEAPju0mAKam1pJV3XsH6NbTztisPH1hKPk3Lok85+61AqWM+iA6ydc1tq/jjCxtC1EPfoPIO+uIC+A5YKiTwpppY9GrTSbonQIlOwgHzStULxZPyqSAONIq+2fTTlH0lxf4ytnmaw==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "Pago",
+        "quantity": "1",
+        "unit_key": "ACT",
+        "unit": NaN,
+        "unit_price": "0",
+        "amount": "0",
+        "discount": null,
+        "transferred_taxes_amount": "0",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "0",
+        "ieps_amount": "0",
+        "concept_taxes": [],
+        "uuid": "4be792d3-75bc-4797-a7e2-6d5231e4fe7d"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": NaN,
+        "tax_code": NaN,
+        "factor_type": NaN,
+        "rate_or_fee": NaN,
+        "base": NaN,
+        "amount": NaN,
+        "total_transferred_taxes": "0",
+        "total_withheld_taxes": "0",
+        "uuid": "4be792d3-75bc-4797-a7e2-6d5231e4fe7d"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "N",
+    "folio_number": "13",
+    "issue_date": "2025-07-14T10:19:17",
+    "subtotal": "1745.17",
+    "total": "2024.40",
+    "invoice_type": "E",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "58187",
+    "issuer_rfc": "NSI2104132IA",
+    "issuer_name": "NUMEROS CON SIGNIFICADO",
+    "issuer_tax_regime": "626",
+    "receiver_rfc": "VEN230503548",
+    "receiver_name": "VENTRAUREN",
+    "receiver_cfdi_use": "G03",
+    "receiver_fiscal_address": "11590",
+    "receiver_tax_regime": "601",
+    "uuid": "759b7b1a-ca73-47c5-b812-72f01342ff36",
+    "stamp_date": "2025-07-14T10:23:17",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "Lu4+imhAeYrj9T8S++ZIwDllo+Qv4tugLJhNkTh78ozhAVS01TG3Q0wsL8U34APQ56E5pGXFC8eNYenPfQuLVAgtzd1QQKShPO+uOb/W7Dq6OfdDHolXmsLj1BRVTIABBk1mY2d9GZwZkezuAQ2GwR+FKPIUnRbs1dT/AW1mDUOEWR7BAkmIMT1UKLpPQHrMzDA6OcOrzN6+mzDYg8HGXnKMF9U8KcqjDPAjZXfah205Z6BgSGeAI7YzfeKF9E6f4KhtQrsWU4qEgIPJKIufaqKQ2vrnIbXFTxF3oL7hTF/mXgw2LnqD7WDIgK46ySsP4aylCLnC5TjPMFl5io3qjQ==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111500",
+        "description": "Honorarios contables",
+        "quantity": "1.000000",
+        "unit_key": "E48",
+        "unit": "Unidad de servicio",
+        "unit_price": "1745.170000",
+        "amount": "1745.170000",
+        "discount": null,
+        "transferred_taxes_amount": "279.227200",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "279.227200",
+        "ieps_amount": "0",
+        "concept_taxes": [
+          {
+            "tax_type": "transfer",
+            "tax_code": "002",
+            "factor_type": "Tasa",
+            "rate_or_fee": "0.160000",
+            "base": "1745.170000",
+            "amount": "279.227200"
+          }
+        ],
+        "uuid": "759b7b1a-ca73-47c5-b812-72f01342ff36"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": "transfer",
+        "tax_code": "002",
+        "factor_type": "Tasa",
+        "rate_or_fee": "0.160000",
+        "base": "1745.17",
+        "amount": "279.23",
+        "total_transferred_taxes": "279.23",
+        "total_withheld_taxes": "0",
+        "uuid": "759b7b1a-ca73-47c5-b812-72f01342ff36"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": NaN,
+    "folio_number": "432757",
+    "issue_date": "2025-07-01T13:50:10",
+    "subtotal": "349.00",
+    "total": "404.84",
+    "invoice_type": "I",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "06600",
+    "issuer_rfc": "AMU070829TW4",
+    "issuer_name": "FONDEA TECHNOLOGIES",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "VEN230503548",
+    "receiver_name": "VENTRAUREN",
+    "receiver_cfdi_use": "G03",
+    "receiver_fiscal_address": "11590",
+    "receiver_tax_regime": "601",
+    "uuid": "10E376E7-32D9-551E-A5BC-2FDF5F907B0E",
+    "stamp_date": "2025-07-01T15:03:59",
+    "sat_certificate_number": "00001000000707310321",
+    "cfd_seal": "jc+S3//jaoHYb2i9ZQidqKzKBxdmA+jHfgi3i7XK7Ofq2gn0/WpFSf87Gd2Y+WM8gptNXoq/jQM+zrCHvynBBR3hDg/903eiM6zO+gJc003GVJzvmqKC/4yihJ8AaaMpERrf3c5mNO11Os2iTV1F/+AoOPXjUtTa9/pDahiVJ4EVQW5E0dW59y6FvgcQZ409Tk5IsaIAtHLcLE55KblwSPAa1W/wIy1/7I/tbCSfYnVL6hTKXfbZDTKBrwqb8baXO/9zH5efU1A2q3qW3DqPUjQY9CIrSy5j1c/+hKfRrG0Jw0NCPdDJASEbPTzSxhzXPrSstpe2zwPMRt+dEtEyhw==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84121500",
+        "description": "Comision mensual",
+        "quantity": "1",
+        "unit_key": "E48",
+        "unit": NaN,
+        "unit_price": "349.00",
+        "amount": "349.00",
+        "discount": null,
+        "transferred_taxes_amount": "55.84",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "55.84",
+        "ieps_amount": "0",
+        "concept_taxes": [
+          {
+            "tax_type": "transfer",
+            "tax_code": "002",
+            "factor_type": "Tasa",
+            "rate_or_fee": "0.160000",
+            "base": "349.00",
+            "amount": "55.84"
+          }
+        ],
+        "uuid": "10E376E7-32D9-551E-A5BC-2FDF5F907B0E"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": "transfer",
+        "tax_code": "002",
+        "factor_type": "Tasa",
+        "rate_or_fee": "0.160000",
+        "base": "349.00",
+        "amount": "55.84",
+        "total_transferred_taxes": "55.84",
+        "total_withheld_taxes": "0",
+        "uuid": "10E376E7-32D9-551E-A5BC-2FDF5F907B0E"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "A",
+    "folio_number": "213",
+    "issue_date": "2025-02-07T00:00:00",
+    "subtotal": "1100.00",
+    "total": "1276.00",
+    "invoice_type": "I",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "11590",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "DUVA590608U72",
+    "receiver_name": "ALBERTO ANTONIO DURAZO VILLANUEVA",
+    "receiver_cfdi_use": "G03",
+    "receiver_fiscal_address": "11850",
+    "receiver_tax_regime": "612",
+    "uuid": "3baefe7b-61d8-417d-bbc6-611fe41e7089",
+    "stamp_date": "2025-02-07T10:59:40",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "eq++RboKCOUuu0ujCrVxTD1b1fjSnPyh02C1vfG0h8KeC9GBYEsf4gws0XRtcgcxr7/HUH5u0XXzEgnVLfr2yOMwgRgt+Z0YFkJv971gfXwWNKfBpdW4PkrGNDar2rmLCUA1S5xB7l2ryfa19oLG9u7+SEhLJaiu88vOuj8dfNFYFXP/ksLdQLH55h7GodbtsG4qlhMDGByOmdGnTMWzNRU1kIU0Thhgq4mGWSGV9jklIG/o02tk1yvIPvQMWhajk2dvGgB4tJe+TIoiqmh0+tSvZ0Rfr/hgl0pN1fD7ulEgrYQe/Q8xnuooapGhvb4Ke+QlRh4qLcvU1/Bo+Dcneg==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "84111506",
+        "description": "Servicios de facturación",
+        "quantity": "1.0",
+        "unit_key": "E48",
+        "unit": NaN,
+        "unit_price": "1100.0",
+        "amount": "1100.0",
+        "discount": null,
+        "transferred_taxes_amount": "176.0",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "176.0",
+        "ieps_amount": "0",
+        "concept_taxes": [
+          {
+            "tax_type": "transfer",
+            "tax_code": "002",
+            "factor_type": "Tasa",
+            "rate_or_fee": "0.160000",
+            "base": "1100.0",
+            "amount": "176.0"
+          }
+        ],
+        "uuid": "3baefe7b-61d8-417d-bbc6-611fe41e7089"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": "transfer",
+        "tax_code": "002",
+        "factor_type": "Tasa",
+        "rate_or_fee": "0.160000",
+        "base": "1100.00",
+        "amount": "176.00",
+        "total_transferred_taxes": "176.00",
+        "total_withheld_taxes": "0",
+        "uuid": "3baefe7b-61d8-417d-bbc6-611fe41e7089"
+      }
+    ]
+  },
+  {
+    "version": "4.0",
+    "series": "A",
+    "folio_number": "201",
+    "issue_date": "2025-02-07T00:00:00",
+    "subtotal": "10.00",
+    "total": "10.00",
+    "invoice_type": "I",
+    "currency": "MXN",
+    "exchange_rate": null,
+    "place_of_issue": "11590",
+    "issuer_rfc": "VEN230503548",
+    "issuer_name": "VENTRAUREN",
+    "issuer_tax_regime": "601",
+    "receiver_rfc": "GAGJ010522MN7",
+    "receiver_name": "JAVIER GARZA GUERRA",
+    "receiver_cfdi_use": "S01",
+    "receiver_fiscal_address": "66266",
+    "receiver_tax_regime": "605",
+    "uuid": "c5ac6f63-47b1-4c62-bd83-a1198e43510d",
+    "stamp_date": "2025-02-07T22:44:05",
+    "sat_certificate_number": "00001000000509846663",
+    "cfd_seal": "gbNVcqrPvXWrAV29yQaXubjIFBR+AEkV0xDKdgOpKRdunb7sAtQ0+2k+WXxRXrtrAOxW6Ww1dj0vmqy0D9pKoinHmowQxzZ58TGZjuHP7Sn7fXmIkz6nZPL9rcFQ0+e/Nfrx0rLjM+Vi/2o7XXJ373nSz6UF+nUsUVHxbW42avAk3OcnJpr4dtJdg3wSTeRfhJsS25DnCERjADWxaWbgQbA/IQ+1zXj8wYSVAvoGVIdHJgb0jJ8Ov/S8aRjvMoUIJv0a+QZOkV3Yv5Znpu1wlzUp6yz9QbuohWl6ykpdDGET9jCEIJkzdhXfeBt5DYQPV3P9sos2UwJlTyspws7chw==",
+    "concepts": [
+      {
+        "concept_index": 0,
+        "product_service_key": "10121804",
+        "description": "Comida animales",
+        "quantity": "1.0",
+        "unit_key": "KGM",
+        "unit": NaN,
+        "unit_price": "10.0",
+        "amount": "10.0",
+        "discount": null,
+        "transferred_taxes_amount": "0",
+        "withheld_taxes_amount": "0",
+        "vat_amount": "0",
+        "ieps_amount": "0",
+        "concept_taxes": [],
+        "uuid": "c5ac6f63-47b1-4c62-bd83-a1198e43510d"
+      }
+    ],
+    "taxes": [
+      {
+        "tax_type": NaN,
+        "tax_code": NaN,
+        "factor_type": NaN,
+        "rate_or_fee": NaN,
+        "base": NaN,
+        "amount": NaN,
+        "total_transferred_taxes": "0",
+        "total_withheld_taxes": "0",
+        "uuid": "c5ac6f63-47b1-4c62-bd83-a1198e43510d"
+      }
+    ]
+  }
+]

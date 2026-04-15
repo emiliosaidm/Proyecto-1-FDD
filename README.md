@@ -23,6 +23,8 @@
 - Calculate tax totals (VAT, IEPS, withholdings).
 - Validate duplicates, tax consistency, and date ranges.
 - Export nested JSON per invoice (`concepts` + `taxes`).
+- **Plots**: bar chart of monthly income vs expenses and pie chart by CFDI type.
+- **Currency conversion**: fetch live exchange rates and convert invoice totals via the [Open ExchangeRate API](https://open.er-api.com/) (no API key needed).
 
 ## Installation
 
@@ -32,7 +34,7 @@
 pip install cfdi-pandas
 ```
 
-PyPI package page: [https://pypi.org/project/cfdi-pandas/0.1.0/](https://pypi.org/project/cfdi-pandas/0.1.0/)
+PyPI package page: [https://pypi.org/project/cfdi-pandas/](https://pypi.org/project/cfdi-pandas/)
 
 ### From this repository (editable mode)
 
@@ -124,6 +126,16 @@ print(json_invoices[0].keys())
 - `check_date_range(comprobantes_df, start, end)`
 - `validate_all(comprobantes_df, conceptos_df, start=None, end=None)`
 
+### Plots
+
+- `plot_income_expenses(comprobantes_df)` — bar chart of monthly ingresos vs egresos.
+- `plot_by_cfdi_type(comprobantes_df)` — pie chart of invoice count by CFDI type.
+
+### Currency conversion
+
+- `fetch_exchange_rate(base="MXN", target="USD")` — get a live exchange rate from the Open ExchangeRate API.
+- `convert_totals(comprobantes_df, target="USD")` — add a `total_<currency>` column with converted amounts.
+
 ## Full example
 
 ```python
@@ -141,6 +153,10 @@ from cfdi_pandas import (
     check_tax_math,
     check_date_range,
     validate_all,
+    plot_income_expenses,
+    plot_by_cfdi_type,
+    fetch_exchange_rate,
+    convert_totals,
 )
 
 folder = Path("cfdi_data")
@@ -165,6 +181,14 @@ print(check_tax_math(comprobantes, conceptos))
 print(check_date_range(comprobantes, "2025-01-01", "2025-12-31"))
 print(validate_all(comprobantes, conceptos, "2025-01-01", "2025-12-31"))
 print(data.to_json()[:1])
+
+# Plots
+plot_income_expenses(comprobantes)
+plot_by_cfdi_type(comprobantes)
+
+# Currency conversion
+print(fetch_exchange_rate(base="MXN", target="USD"))
+print(convert_totals(comprobantes, target="USD").head())
 ```
 
 ## Notes
@@ -172,3 +196,5 @@ print(data.to_json()[:1])
 - This project expects CFDI 4.0 structure.
 - Tax calculations can be run from `impuestos` or from concept-level taxes in `conceptos`.
 - Empty DataFrames in validations mean no issues were found for that check.
+- Currency conversion requires an internet connection (calls the Open ExchangeRate API).
+- Plotting requires `matplotlib` (included as a dependency).

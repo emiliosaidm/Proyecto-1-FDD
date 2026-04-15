@@ -4,13 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cfdi-pandas"
-version = "0.1.0"
+version = "0.1.1"
 description = "Read, parse, analyze, and validate CFDI 4.0 XML invoices with pandas."
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "pandas>=2.0",
     "lxml>=4.9",
+    "matplotlib>=3.7",
 ]
 
 [project.optional-dependencies]
@@ -18,6 +19,7 @@ excel = ["openpyxl>=3.1"]
 dev = [
     "pytest>=8.0",
     "pytest-cov>=5.0",
+    "responses>=0.25",
 ]
 
 [tool.setuptools]
